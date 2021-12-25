@@ -5,15 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Infinity Scroller - ZTM</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
+    <h1>Infinity Scroll - UnSplash API</h1>
 
+    <!-- Loader -->
+    <div class="loader" id="loader" hidden>
+        <img src="./loading-spinner.svg" alt="Please wait while we load your content....">
+    </div>
+    <div class="image-container" id="image-container">
+        <img src="https://images.unsplash.com/photo-1600582910964-5b7c109e6868?" alt="">
+        <img src="https://images.unsplash.com/photo-1600582910964-5b7c109e6868?" alt="">
+    </div>
     <!-- Javascript -->
     <script src="app.js"></script>
 </body>
