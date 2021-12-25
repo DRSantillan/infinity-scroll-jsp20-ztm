@@ -1,2 +1,4 @@
-# infinity-scroll-jsp20-ztm
-Infinity Scroll using vanilla JS.
+
+#  Infinity Scroll using vanilla JS.
+
+https://deansantillan.com/portfolio/infinity-scroller/
